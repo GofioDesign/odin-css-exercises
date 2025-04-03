@@ -1,27 +1,17 @@
-/* 
-* **All odd numbered elements**: a light red/pink background, and a list of fonts containing `Verdana` and `DejaVu Sans` with `sans-serif` as a fallback
-* **The second element**: blue text and a font size of 36px
-* **The third element**: in addition to the styles for all odd numbered elements, add a font size of 24px
-* **The fourth element**: a light green background, a font size of 24px, and bold
-
-*/
-:nth-first-child {
-    background-color: white;
-    border:1px solid red;
-}
-:nth-child(2n+1) {
+.odd {
     background-color: #ffcccb;
     font-family: Verdana, DejaVu Sans, sans-serif;
-}
-:nth-child(2) {
+    }
+#n2 {
     color: blue;
     font-size: 36px;
 }
-:nth-child(3) {
+.font {
     font-size: 24px;
 }
-:nth-child(4) {
+#n4 {
     background-color: #ccffcc;
     font-size: 24px;
     font-weight: bold;
 }
+
